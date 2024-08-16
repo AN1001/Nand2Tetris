@@ -1,3 +1,5 @@
+//Multiplies numbers stored in Register 0 and Register 1
+//and stores output in Register 2
 @R2
 M=0
 
