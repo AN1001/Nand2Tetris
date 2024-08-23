@@ -14,8 +14,6 @@ CHIP CPU {
         pc[15];          // address of next instruction
 
     PARTS:
-    //temp c
-    Mux(a=true, b=true, sel=true, out=c);
     //replace b with alu output later
     Mux16(a=instruction, b=false, sel=instruction[15], out=inARegister);
 
