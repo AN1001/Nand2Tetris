@@ -1,4 +1,4 @@
-I## My notes on how the (HACK) CPU operates
+## My notes on how the (HACK) CPU operates
 
 ### C-instruction
 ```bash
