@@ -53,7 +53,10 @@ Compute ALU:
 
 ### Program Counter (PC)
 let A be ALU output is zero and Jump if equal to zero is true (JEQ [j1])
+
 let B be ALU output is negative and Jump if negative is true (JNG [j2])
+
 let C be ALU output is positve and Jump if positive is true (JGT [j3])
+
 Jump if (A or B or C) which means to load PC with memory address at A register only if C-instruction
 Only increment if not loading, and reset if reset pin active
